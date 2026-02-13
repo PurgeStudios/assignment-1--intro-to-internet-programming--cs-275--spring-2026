@@ -1,20 +1,38 @@
 body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  margin: 150px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc0.anyrgb.com%2Fimages%2F103%2F1012%2Fwallpaper-hd-wallpapers-hd-backgrounds-wallpapers-computer-backgrounds-tumblr-backgrounds-cool-backgrounds-backgrounds-desktop-backgrounds-google-backgrounds.jpg&f=1&nofb=1&ipt=1b47af365f42758adb17166268431b35e5cfcc08d842d7789bd22b5deb32f077");
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-wrap: balance;
+  border: 10px solid rgb(255, 255, 255);
+  padding-bottom: 30px;
+  background-color: rgb(18, 73, 135);
 
   font-family: "Playwrite NZ Basic", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
-p {
-  font-size: 1.6rem;
-  padding: 5px;
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
 
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-footer{
-  color: blue;
+
+p {
+  font-size: 1.6rem;
+  padding: 50px;
+  text-align: center;
+
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
