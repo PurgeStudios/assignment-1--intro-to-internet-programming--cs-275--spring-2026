@@ -2,7 +2,13 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   margin: 150px;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc0.anyrgb.com%2Fimages%2F103%2F1012%2Fwallpaper-hd-wallpapers-hd-backgrounds-wallpapers-computer-backgrounds-tumblr-backgrounds-cool-backgrounds-backgrounds-desktop-backgrounds-google-backgrounds.jpg&f=1&nofb=1&ipt=1b47af365f42758adb17166268431b35e5cfcc08d842d7789bd22b5deb32f077");
+
+  background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg");
+  background-size: 1550px;
+}
+
+body.index-first {
+  background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/gradient-red-and-black-background-15424178422Hd.jpg");
 }
 
 h1 {
@@ -10,12 +16,36 @@ h1 {
   text-align: center;
   text-wrap: balance;
   border: 10px solid rgb(255, 255, 255);
-  padding-bottom: 30px;
+  padding-bottom: 35px;
+  padding-top: 10px;
   background-color: rgb(18, 73, 135);
 
   font-family: "Playwrite NZ Basic", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+h1.index-first {
+  color: rgb(255, 0, 0);
+  border: 10px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+button {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 1.5rem;
+  background-color: rgb(158, 24, 202);
+  float: center;
+}
+
+button.page-backward {
+  float: left;
+}
+
+button.page-foward {
+  float: right;
 }
 
 h2 {
@@ -29,7 +59,7 @@ h2 {
 
 p {
   font-size: 1.6rem;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
 
   font-family: "Archivo Black", sans-serif;
