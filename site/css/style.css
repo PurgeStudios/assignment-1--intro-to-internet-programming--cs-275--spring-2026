@@ -37,7 +37,6 @@ button {
   font-style: normal;
   font-size: 1.5rem;
   background-color: rgb(158, 24, 202);
-  float: center;
 }
 
 button.page-backward {
