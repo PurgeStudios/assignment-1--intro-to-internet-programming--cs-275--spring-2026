@@ -1,7 +1,7 @@
 body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  margin-top: 250px;
+  margin-top: 245px;
   margin-left: 100px;
   margin-right: 100px;
 
@@ -15,6 +15,34 @@ body.index-first {
 
 body.index-second {
  background-image: url("../img/brick-background.jpg");
+}
+
+body.index-third {
+ background-image: url("../img/abstract_art_backgrounds_ball_blue_blur_blurred_background_bokeh-1526925-2395973217.jpg");
+}
+
+body.index-fourth {
+ background-image: url("../img/background-629463_960_720-3693725954.jpg");
+}
+
+body.index-fifth {
+ background-image: url("../img/mountain-ai.jpg");
+}
+
+body.index-sixth {
+ background-image: url("../img/mountainous-landforms-mountain-sky-mountain-range-alps-ridge-1557621-pxhere.com.jpg");
+}
+
+body.index-seventh {
+ background-image: url("../img/body-of-water-sky-water-resources-nature-water-lake-1477743-pxhere.com.jpg");
+}
+
+body.index-eighth {
+ background-image: url("../img/sky-cloud-daytime-atmosphere-purple-atmospheric-phenomenon-1555105-pxhere.com.jpg");
+}
+
+body.index-nineth {
+ background-image: url("../img/space-stars.jpg");
 }
 
 h1 {
@@ -43,6 +71,49 @@ h1.index-second {
   background-color: rgba(174, 63, 63, 0.764);
 }
 
+h1.index-third {
+  color: rgb(255, 255, 255);
+  border: 10px solid rgb(159, 142, 142);
+  background-color: rgba(31, 160, 215, 0.764);
+}
+
+h1.index-fourth {
+  color: rgb(0, 0, 0);
+  border: 10px solid rgb(0, 0, 0);
+  background-color: rgba(4, 0, 255, 0.471);
+}
+
+h1.index-fifth {
+  color: rgb(0, 0, 0);
+  border: 10px solid rgb(0, 0, 0);
+  background-color: rgba(0, 248, 161, 0.764);
+}
+
+h1.index-sixth {
+  color: rgb(0, 0, 0);
+  border: 10px solid rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.764);
+}
+
+h1.index-seventh {
+  color: rgb(5, 5, 5);
+  border: 10px solid rgba(22, 22, 22, 0.438);
+  background-color: rgba(80, 188, 7, 0.764);
+}
+
+h1.index-eighth {
+  color: rgb(255, 255, 255);
+  border: 10px solid rgb(255, 255, 255);
+  background-color: rgba(86, 7, 232, 0.764);
+  border-style:dashed
+}
+
+h1.index-nineth {
+  color: rgb(255, 255, 255);
+  border: 10px solid rgb(250, 250, 250);
+  background-color: rgba(0, 94, 255, 0);
+}
+
 h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -67,8 +138,64 @@ p.index-second {
   text-shadow: 5px 3px 4px black ;
   text-shadow: ;
   color: rgb(255, 0, 0);
-  -webkit-text-stroke-width: 100px black;
+  -webkit-text-stroke-width: 100px;
   -webkit-text-stroke: 1.8px black;
+}
+
+p.index-third {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1.8px black;
+}
+
+p.index-fourth {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 10px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+p.index-fifth {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(6, 238, 41);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1.8px black;
+}
+
+p.index-sixth {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(229, 255, 0);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1.8px rgb(12, 12, 12);
+}
+
+p.index-seventh {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(3, 120, 26);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1.3px rgb(255, 255, 255);
+}
+
+p.index-eighth {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgb(208, 0, 255);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+p.index-nineth {
+  text-shadow: 5px 3px 4px black ;
+  text-shadow: ;
+  color: rgba(255, 0, 0, 0);
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
 button {
